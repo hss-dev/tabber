@@ -2,4 +2,19 @@
   navLinks="[{&quot;label&quot;:&quot;admin&quot;,&quot;current&quot;:true,&quot;path&quot;:&quot;index.html&quot;},{&quot;label&quot;:&quot;reporting&quot;,&quot;current&quot;:false,&quot;path&quot;:&quot;index.html&quot;}]"
 ></tab-link>
 
-<script src="tabber.js"></script>
+<script type="module" src="index.js"></script>
+
+<script>
+        import Tabber from './tabber.js';
+
+        try {
+          customElements.define("tab-link", Tabber);
+        } catch (err) {
+          console.error(err);
+          const h3 = document.createElement("h3");
+          h3.innerHTML =
+            "This site uses webcomponents which don't work in all browsers! Try this site in a browser that supports them!";
+          document.body.appendChild(h3);
+        }
+
+</script>
