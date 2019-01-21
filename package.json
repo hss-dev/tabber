@@ -1,0 +1,19 @@
+{
+  "name": "tabber",
+  "version": "1.0.0",
+  "description": "A quick web component to tab out urls",
+  "main": "tabber.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hss-dev/tabber.git"
+  },
+  "author": "Wellbeing Software",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/hss-dev/tabber/issues"
+  },
+  "homepage": "https://github.com/hss-dev/tabber#readme"
+}
