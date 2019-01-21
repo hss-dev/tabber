@@ -1,6 +1,6 @@
 {
   "name": "tabber",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A quick web component to tab out urls",
   "main": "tabber.js",
   "scripts": {
